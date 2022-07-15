@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.heading {
+  color: #484848;
+  font-size: 1.25rem; /* 20px */
+  line-height: 1.75rem; /* 28px */
+
+  font-family: poppins;
+  letter-spacing: 7px;
+  cursor: pointer;
+}
+.heading span {
+  transition: 0.5s linear;
+  letter-spacing: 9px;
+}
+
+.heading:hover span:nth-child(even):after {
+  content: ".";
+}
+
+h1:hover span:nth-child(even) {
+  margin-right: 30px;
+}
+
+.heading:hover span {
+  color: #fff;
+  text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 40px #fff;
+}
