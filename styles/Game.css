@@ -20,16 +20,9 @@
 }
 /* button styles */
 .games .card .card-text .btn {
-  left: 25px;
-  top: 120px;
   position: absolute;
   display: inline-block;
-  padding: 15px 30px;
-  color: #f5f5f5;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
   text-decoration: none;
-  font-size: 24px;
   overflow: hidden;
   transition: 0.2s;
 }
@@ -150,15 +143,6 @@
   transform: translateZ(30px);
 }
 
-.card-text p {
-  color: #f5f5f5;
-  font-size: 14px;
-  font-weight: 300;
-}
-.card-text h2 {
-  margin-top: 0px;
-  font-size: 28px;
-}
 
 /*card2*/
 .card-image.card2 {

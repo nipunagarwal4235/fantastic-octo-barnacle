@@ -1,11 +1,23 @@
 import React from "react";
 
+import {
+  FaFacebookF,
+  FaTwitter,
+  FaInstagram,
+  FaDiscord,
+  FaLinkedinIn,
+  FaWhatsapp,
+} from "react-icons/fa";
+
 const SocialMedia = () => {
   return (
     <>
-      <div class="section-title">
-        <h2>
-          <span>Follow</span> Us
+      <div className="max-w-lg py-8 mx-auto text-center">
+        <h2 className="text-3xl font-poppins text-white font-bold sm:text-4xl">
+          <span className="underline  decoration-purple-700 decoration-4 underline-offset-2">
+            Follo
+          </span>
+          w Us
         </h2>
       </div>
       <section class="icons" id="icons">
@@ -19,7 +31,9 @@ const SocialMedia = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span class="fa fa-facebook"></span>
+              <span>
+                <FaFacebookF />
+              </span>
             </a>
           </li>
           <li>
@@ -31,7 +45,9 @@ const SocialMedia = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span class="fa fa-twitter"></span>
+              <span>
+                <FaTwitter />
+              </span>
             </a>
           </li>
           <li>
@@ -43,7 +59,9 @@ const SocialMedia = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span class="fa fa-instagram"></span>
+              <span>
+                <FaInstagram />
+              </span>
             </a>
           </li>
           <li>
@@ -55,7 +73,9 @@ const SocialMedia = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span class="fa fa-linkedin"></span>
+              <span>
+                <FaLinkedinIn />
+              </span>
             </a>
           </li>
           <li>
@@ -67,7 +87,9 @@ const SocialMedia = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span class="fa fa-whatsapp"></span>
+              <span>
+                <FaWhatsapp />
+              </span>
             </a>
           </li>
         </ul>
